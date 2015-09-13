@@ -1,5 +1,5 @@
 <?php
 
-interface Validator {
+interface NerdsvillePHPValidator {
     public function validate($object);
 }

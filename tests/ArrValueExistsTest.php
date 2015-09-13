@@ -1,5 +1,5 @@
 <?php
-require_once "../ArrValueExists.php";
+require_once "bootstrap.php";
 
 class ArrValueExistsTest extends PHPUnit_Framework_TestCase {
     public function setUp() {

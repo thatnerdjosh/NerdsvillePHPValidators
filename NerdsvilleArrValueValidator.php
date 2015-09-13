@@ -1,4 +1,4 @@
 <?php
-interface ArrValueValidator {
+interface NerdsvilleArrValueValidator {
     public function validate($arr, $index);
 }
