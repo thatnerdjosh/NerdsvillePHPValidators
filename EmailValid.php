@@ -8,5 +8,7 @@ class NerdsvillePHPValidators_EmailValid implements NerdsvillePHPValidator {
             $domain = explode("@", $subject)[1];
             return preg_match($pattern, $subject) && checkdnsrr($domain, "MX");  
         }    
+
+        return false;
     }
 }
