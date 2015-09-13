@@ -1,7 +1,7 @@
 <?php
 include_once('NerdsvillePHPValidator.php');
 
-class NerdsvilleValidators_PhoneValid implements NerdsvillePHPValidator {
+class NerdsvillePHPValidators_PhoneValid implements NerdsvillePHPValidator {
     public function validate($subject) {
         $phonePatterns = array(
             "\([0-9]{3}\)[0-9]{3}-[0-9]{4}", //(000)000-0000

@@ -3,7 +3,7 @@ require_once "bootstrap.php";
 
 class ArrValueExistsTest extends PHPUnit_Framework_TestCase {
     public function setUp() {
-        $this->validator = new NerdsvilleValidators_ArrValueExists();
+        $this->validator = new NerdsvillePHPValidators_ArrValueExists();
     }
 
     public function testEmptyValue() {

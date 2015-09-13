@@ -1,7 +1,7 @@
 <?php
 include_once("NerdsvillePHPValidator.php");
 
-class NerdsvilleValidators_EmailValid implements NerdsvillePHPValidator {
+class NerdsvillePHPValidators_EmailValid implements NerdsvillePHPValidator {
     public function validate($subject) {
         $pattern = "/^.*@[A-z0-9]*\.*/";
         if(strpos($subject, "@") !== false) {

@@ -4,7 +4,7 @@ require_once 'bootstrap.php';
 
 class EmailValidTest extends PHPUnit_Framework_TestCase {
     public function setUp() {
-        $this->validator = new NerdsvilleValidators_EmailValid();
+        $this->validator = new NerdsvillePHPValidators_EmailValid();
     }
 
     public function testEmptyValue() {

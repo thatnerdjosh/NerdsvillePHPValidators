@@ -1,6 +1,6 @@
 <?php
 
 function __autoload($classname) {
-    $classname = str_replace("NerdsvilleValidators_", "", $classname);
+    $classname = str_replace("NerdsvillePHPValidators_", "", $classname);
     include_once(__DIR__."/../$classname.php");
 }
