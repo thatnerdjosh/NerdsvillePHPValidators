@@ -4,7 +4,7 @@ require_once 'bootstrap.php';
 
 class PhoneValidTest extends PHPUnit_Framework_TestCase {
     public function setUp() {
-        $this->validator = new Validators_PhoneValid();
+        $this->validator = new NerdsvilleValidators_PhoneValid();
     }
 
     public function testEmptyValue() {
